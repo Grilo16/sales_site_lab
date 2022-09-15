@@ -1,38 +1,111 @@
-.App {
+/* Page not Found */
+.page-not-found {
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+/* Basket Page */
+.basket-container{
+  text-align: center;
+  display: flex;
+}
+
+.basket-details{
+  width : 100vh;
+  margin-top: 30vh;
+  margin-left: 1%;
+}
+
+.basket-contents>.product-list {
+  width: 99vh;
+  height: 85vh;
+}
+
+
+/* HomePage */
+.home-page{
+  padding-top: 10px;
+  background-color: coral;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+
+/* Sales page  */
+.page-title{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar  {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 5px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.page-contents{
+  display: flex;
+  background-color: coral;
+  height: 85vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-list{
+  width: 50%;
+  background-color: grey;
+  overflow: scroll;
 }
+
+.product-list>ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.product {
+  text-align: center;
+  background-color: white;
+  list-style: none;
+  width: 90%;
+  height: fit-content;  
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.product>p{
+  height: 40px;
+  overflow: hidden;
+}
+
+.product-description {
+  overflow: scroll;
+  text-align: center;
+  width: 50%;
+  position: relative;
+}
+
+.product-details{
+  background-color: grey;
+  width: 420px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.product-details>p{
+  height: 169px ;
+  overflow: scroll;
+  margin: 6px;
+}
+
+.product-description-form{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
